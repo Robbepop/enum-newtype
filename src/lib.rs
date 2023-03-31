@@ -1,6 +1,6 @@
 use enum_newtype_macro::enum_newtype;
 
-#[enum_newtype(name = OpVariants, aliases = true)]
+#[enum_newtype(name = OpVariants)]
 #[derive(Debug, Copy, Clone)]
 pub enum Op {
     /// Add docs.
